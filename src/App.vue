@@ -58,9 +58,9 @@ export default{
   data() {
     return {
       peopleForCard:[
-        {id:0,name:'Lara Lin',srcImg:'./imgSrc/firstPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
-        {id:1,name:'Andrew Reed',srcImg:'./imgSrc/secondPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
-        {id:2,name:'Crista Anderson',srcImg:'./imgSrc/thirdPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
+        {id:0,name:'Lara Lin',srcImg:'../imgSrc/firstPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
+        {id:1,name:'Andrew Reed',srcImg:'../imgSrc/secondPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
+        {id:2,name:'Crista Anderson',srcImg:'../imgSrc/thirdPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
       ],
       featuresList:[
         {id:0,title:'24/7 support',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'./imgSrc/lock.png'},
