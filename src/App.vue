@@ -15,7 +15,6 @@
         </h1>
 
         <PersonCard v-for="person in peopleForCard" :key="person.id" :personsInf="person">
-          
         </PersonCard>
 
       </div>
