@@ -17,6 +17,7 @@
         v-for="person in peopleForCard" :key="person.id"
         :personsInf="person"
         >
+          <img :src="person.srcImg">
         </PersonCard>
       </div>
 
