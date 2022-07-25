@@ -14,8 +14,16 @@
           sit <br>amet yo 👋
         </h1>
 
-        <PersonCard v-for="person in peopleForCard" :key="person.id" :personsInf="person">
-          <img :src="this.source"> 
+        <PersonCard :personsInf="peopleForCard[0]">
+          <img src="imgSrc/firstPerson.png">
+        </PersonCard>
+
+        <PersonCard :personsInf="peopleForCard[1]">
+          <img src="imgSrc/secondPerson.png">
+        </PersonCard>
+
+        <PersonCard :personsInf="peopleForCard[2]">
+          <img src="imgSrc/thirdPerson.png">
         </PersonCard>
 
       </div>
@@ -66,8 +74,7 @@ export default{
         {id:0,title:'24/7 support',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/lock.png'},
         {id:1,title:'1000+ of reviews',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/graphic.png'},
         {id:2,title:'And more!',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/trophy.png'}
-      ],
-      source:'/imgSrc/firstPerson.png'
+      ]
     }
   },
   methods:{
