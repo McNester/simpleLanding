@@ -17,6 +17,16 @@
         >
           <img src="imgSrc/firstPerson.png">
         </PersonCard>
+
+        <PersonCard :personsInf="peopleForCard[1]"
+        >
+          <img src="imgSrc/secondPerson.png">
+        </PersonCard>
+
+        <PersonCard :personsInf="peopleForCard[2]"
+        >
+          <img src="imgSrc/thirdPerson.png">
+        </PersonCard>
       </div>
 
       <img src="/imgSrc/backImg.png" className="scale-[0.52] absolute origin-right right-2 mt-7 sm:-right-4 md:-right-4 lg:scale-[0.59] lg:right-5">
