@@ -5,14 +5,34 @@
     md:h-24 md:w-[94%]
     '>
         <div className='flex' 
-        v-for="feature in featuresList" :key="feature.id">
-            <img :src="feature.imgSrc">
+        >
+            <img src="/imgSrc/lock.png">
             <div class="textContainer">
                 <h1 class="featureTitle">
-                    {{feature.title}}
+                    {{featuresList[0].title}}
                 </h1>
                 <h1 class="featureContent">
-                    {{feature.content}}
+                    {{featuresList[0].content}}
+                </h1>
+            </div>
+
+            <img src="/imgSrc/graphic.png">
+            <div class="textContainer">
+                <h1 class="featureTitle">
+                    {{featuresList[1].title}}
+                </h1>
+                <h1 class="featureContent">
+                    {{featuresList[1].content}}
+                </h1>
+            </div>
+
+            <img src="/imgSrc/trophy.png">
+            <div class="textContainer">
+                <h1 class="featureTitle">
+                    {{featuresList[2].title}}
+                </h1>
+                <h1 class="featureContent">
+                    {{featuresList[2].content}}
                 </h1>
             </div>
         </div>

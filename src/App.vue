@@ -71,9 +71,9 @@ export default{
         {id:2,name:'Crista Anderson',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
       ],
       featuresList:[
-        {id:0,title:'24/7 support',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/lock.png'},
-        {id:1,title:'1000+ of reviews',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/graphic.png'},
-        {id:2,title:'And more!',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/trophy.png'}
+        {id:0,title:'24/7 support',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},
+        {id:1,title:'1000+ of reviews',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'},
+        {id:2,title:'And more!',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
       ]
     }
   },
