@@ -31,7 +31,7 @@ export default {
     computed:{
         getSrcImage(){
             console.log(this.personsInf.srcImg)
-            return this.personsInf.srcImg
+            return './imgSrc/firstPerson.png'
         }
     }
 }
