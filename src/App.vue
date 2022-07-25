@@ -15,15 +15,15 @@
         </h1>
 
         <PersonCard :personsInf="peopleForCard[0]">
-          <img src="imgSrc/firstPerson.png">
+          <img src="/imgSrc/firstPerson.png">
         </PersonCard>
 
         <PersonCard :personsInf="peopleForCard[1]">
-          <img src="imgSrc/secondPerson.png">
+          <img src="/imgSrc/secondPerson.png">
         </PersonCard>
 
         <PersonCard :personsInf="peopleForCard[2]">
-          <img src="imgSrc/thirdPerson.png">
+          <img src="/imgSrc/thirdPerson.png">
         </PersonCard>
 
       </div>
