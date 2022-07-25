@@ -14,19 +14,8 @@
           sit <br>amet yo 👋
         </h1>
 
-        <PersonCard :personsInf="peopleForCard[0]"
-        >
+        <PersonCard v-for="person in peopleForCard" :key="person.id" :personsInf="person">
           <img src="imgSrc/firstPerson.png">
-        </PersonCard>
-
-        <PersonCard :personsInf="peopleForCard[1]"
-        >
-          <img src="imgSrc/secondPerson.png">
-        </PersonCard>
-
-        <PersonCard :personsInf="peopleForCard[2]"
-        >
-          <img src="imgSrc/thirdPerson.png">
         </PersonCard>
 
       </div>

@@ -26,18 +26,7 @@ export default {
             type: Object,
             required: true,
         }
-    },
-    computed:{
-        getSrcImage(){
-            console.log(this.personsInf.srcImg)
-            return this.personsInf.srcImg
-        }
-    },
-    data() {
-        return {
-            source:"firstPerson.png"
-        }
-    },
+    }
 }
 </script>
 
