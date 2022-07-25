@@ -6,7 +6,7 @@
     cursor-default sm:w-[60%] md:w-[68%] lg:w-[75%]
     '>
         <img
-             :src="require(`/imgSrc/${personsInf.srcImg}`)" className='scale-[0.70] md:scale-[0.80] lg:scale-[0.82]'>
+             :src="`/imgSrc/${personsInf.srcImg}`" className='scale-[0.70] md:scale-[0.80] lg:scale-[0.82]'>
         <div className='flex flex-col justify-start items-start h-full text-[0.4rem]'>
             <h1 className='text-white sm:text-[0.65rem] md:text-[0.80rem]'>
                 {{personsInf.name}}
