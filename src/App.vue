@@ -28,7 +28,7 @@
         >
           <img src="imgSrc/thirdPerson.png">
         </PersonCard>
-        
+
       </div>
 
       <img src="/imgSrc/backImg.png" className="scale-[0.52] absolute origin-right right-2 mt-7 sm:-right-4 md:-right-4 lg:scale-[0.59] lg:right-5">
@@ -69,9 +69,9 @@ export default{
   data() {
     return {
       peopleForCard:[
-        {id:0,name:'Lara Lin',srcImg:'./imgSrc/firstPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
-        {id:1,name:'Andrew Reed',srcImg:'./imgSrc/secondPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
-        {id:2,name:'Crista Anderson',srcImg:'./imgSrc/thirdPerson.png',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
+        {id:0,name:'Lara Lin',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
+        {id:1,name:'Andrew Reed',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
+        {id:2,name:'Crista Anderson',comment:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae, in tristique senectus dui pharetra sit.'},
       ],
       featuresList:[
         {id:0,title:'24/7 support',content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit',imgSrc:'/imgSrc/lock.png'},
