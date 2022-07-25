@@ -15,7 +15,7 @@
         </h1>
 
         <PersonCard v-for="person in peopleForCard" :key="person.id" :personsInf="person">
-          <img src="imgSrc/firstPerson.png">
+          
         </PersonCard>
 
       </div>
