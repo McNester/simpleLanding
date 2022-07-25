@@ -13,11 +13,9 @@
           </div>
           sit <br>amet yo 👋
         </h1>
-        <PersonCard 
-        v-for="person in peopleForCard" :key="person.id"
-        :personsInf="person"
+        <PersonCard :personsInf="peopleForCard[0]"
         >
-          <img :src="person.srcImg">
+          <img src="imgSrc/firstPerson.png">
         </PersonCard>
       </div>
 
